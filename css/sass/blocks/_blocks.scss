@@ -22,8 +22,6 @@
 			width: 30.3333333%;
 			margin: 0 1.5% 3rem;	
 			padding: .75rem;
-			@include gray-fancy-box; 
-			background-color: #eaeaea;
 			text-align: center;
 			// Responsive
 			@media (max-width: $tablet-width) {
@@ -35,7 +33,10 @@
 				margin: 0 0 3rem;
 			}
 			.PrimalBlocks-blockFigure {
-				// ...
+
+				img {
+					width: auto;
+				}
 			}
 			.PrimalBlocks-blockTitulo {
 				// ...
