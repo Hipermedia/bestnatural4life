@@ -19,55 +19,14 @@ get_header(); ?>
 	<!-- Cover -->
 	<?php primalCover(); // Cover con imágen de fondo, imagen principal y títulos ?>
 	
-	<?php primalDocs(); ?>
-	
-	<h1>deploy.sh existe prueba 3</h1>
-
-	<?php newsSlider(); ?>
-
-	<?php sauteBlocks();  //  Bloques de contenido salteados ?>
-
-	<?php videoSlider(); ?>
-
-	<?php starchiQuote(); ?>
-
-	<?php cardsTestimony(); ?>
-
 	<?php filmstripSlider(); ?>
 
-	<?php //textSlider(); ?>
-	
 	<!-- Bloques -->
 	<?php primalBlocks(); //  Bloques de contenido primordiales ?>
-	
 
-
-	<?php primalTabs(); ?>
-
-	<!-- Texto -->
-	<?php primalText(); //  Bloques de contenido primordiales ?>
-	
 	<!-- Testimonios -->
 	<?php primalTestimony(); //  Bloques de contenido primordiales ?>
 
-	<?php gallerySlider(); ?>
-
-	<?php meteoroContact(); ?>
-	
 	<?php primalContact(); ?>
-
-	<?php completeContact(); ?>
-
-
-
-	<?php primalGallery(); ?>
-
-	<?php primalPricing(); ?>
-
-	<?php imgridPortfolio(); ?>
-
-	<?php backgroundVideo(); ?>
-
-	<?php primalFooter(); ?>
 
 <?php get_footer(); ?>
