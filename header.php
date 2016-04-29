@@ -56,23 +56,30 @@
 <body <?php body_class(); ?>>
 
 <header id="header" class="Header" role="banner" >
-    <section class="Header-contenido">
-        
-        <!-- Logo -->
-        <a href="<?php inicio_url(); ?>" id="header-logo" class="Header-logo  animated flipInX">
-            <img src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name'); ?>">
-        </a>
+   <div class="Header-beforeContenido">
+      <div class="u-contenedor">
+         <div class="Header-beforeSearchShop">
+           <?php get_search_form(); ?>
+         </div>
+         <div class="Header-beforeContacto">
+            <p class="Header-beforeDato"><?php the_field('correoContacto', 'option'); ?></p>
+            <p class="Header-beforeDato"><?php the_field('movilContacto', 'option'); ?></p>
+         </div>
+         <?php primalSocialShare(); ?> 
+      </div>
+   </div>
 
-        <!-- Redes sociales -->
-        <?php primalSocialShare(); ?>
-        
-        <!-- Formulario de búsqueda [Catacterística superior] -->
-        <?php get_search_form(); ?>
-        
+   <section class="Header-contenido">
+      <!-- Logo -->
+      <a href="<?php inicio_url(); ?>" id="header-logo" class="Header-logo  animated flipInX">
+          <img src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name'); ?>">
+      </a>
+      <!-- <div class="Header-contenidoFraseNav"> -->
+        <p id="header-frase" class="Header-contenidoFrase"><span class="quotes"></span><?php the_field('leyendaHeader', 'option'); ?></p>
         <!-- Menú principal -->  
         <?php primalNav(); ?>
-        
-    </section>
+      <!-- </div> -->
+   </section>
 </header>
 
 <main class="main">

@@ -13,7 +13,9 @@
  */
 
 get_header(); ?>
-
+	
+	<?php primalSlider(); ?>
+	
 	<!-- Cover -->
 	<?php primalCover(); // Cover con imágen de fondo, imagen principal y títulos ?>
 	
@@ -38,7 +40,7 @@ get_header(); ?>
 	<!-- Bloques -->
 	<?php primalBlocks(); //  Bloques de contenido primordiales ?>
 	
-	<?php primalSlider(); ?>
+
 
 	<?php primalTabs(); ?>
 

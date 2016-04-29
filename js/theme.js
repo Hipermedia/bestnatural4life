@@ -16,6 +16,7 @@ jQuery(document).ready(function($) {
 		$('#header-logo img').toggleClass('tiny', $(document).scrollTop() > 0);
 		$('#header-social').toggleClass('u-remove', $(document).scrollTop() > 0);
 		$('#header #searchform').toggleClass('u-remove', $(document).scrollTop() > 0);
+    $('#header #header-frase').toggleClass('u-remove', $(document).scrollTop() > 0);
 		$('#header-main-nav').toggleClass('tiny', $(document).scrollTop() > 0);	
 	});
 	
