@@ -3,26 +3,30 @@
 /*------------------------------------------------*/
 // PRIMAL
 .PrimalBlocks {
-	padding-top: 6rem;
+	/*padding-top: 6rem;*/
+	text-align: center;
 	
 	.PrimalBlocks-contenido {
+		padding-bottom: 2rem;
 		// Responsive
 		@media (max-width: $desktop-width) {
 			padding: 1.5rem;
 		}
+
 		.PrimalBlocks-titulo {
-			color: $main-color-dark;
+			color: #8dc02d;
+			font-size: 2.19rem;
+			font-family: $m-bold;
+			margin-bottom: 4rem;
 		}
-		.PrimalBlocks-subtitulo {
-			margin: 0 0 3rem;
-		}
+
 		.PrimalBlocks-block {
 			display: block;
-			float: left;
-			width: 30.3333333%;
-			margin: 0 1.5% 3rem;	
-			padding: .75rem;
-			text-align: center;
+			display: inline-block;
+			width: 33%;
+			vertical-align: top;
+			padding: 0 1rem;
+			margin-bottom: 3rem;
 			// Responsive
 			@media (max-width: $tablet-width) {
 				width: 44%;
@@ -33,23 +37,37 @@
 				margin: 0 0 3rem;
 			}
 			.PrimalBlocks-blockFigure {
+				min-height: 130px;
 
 				img {
 					width: auto;
 				}
 			}
 			.PrimalBlocks-blockTitulo {
-				// ...
+				color: #ff9900;
+				font-family: $support-font;
+				font-weight: bold;
+				margin: 0;
+				font-size: 2.3rem;
 			}
-			.PrimalBlocks-blockSubtitulo {
-				// ...
-			}
+
 			.PrimalBlocks-blockDescripcion {
-				// ...
+				color: #666666;
+				font-size: 1.3rem;
+				font-weight: bold;
+				padding: 0 1rem;
 			}
+
 			.PrimalBlocks-blockAction {
-				// ...
+
 			}
+		}
+
+		.PrimalBlocks-contenidoZelda {
+			color: #a2a2a2;
+			font-size: .94rem;
+			text-decoration: underline;
+			font-family: $m-light;
 		}
 	}
 }
