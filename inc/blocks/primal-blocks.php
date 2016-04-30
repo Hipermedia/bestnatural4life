@@ -7,7 +7,7 @@
 	<!-- Contenedor -->
 	<div class="PrimalBlocks-contenido u-contenedor">
 		<!-- Títulos de la sección -->
-		<h1 class="PrimalBlocks-titulo"><?php the_field('tituloBeneficiosPortada', 'option'); ?></h1>
+		<h1 class="PrimalBlocks-titulo u-block-title"><?php the_field('tituloBeneficiosPortada', 'option'); ?></h1>
 		<?php if( have_rows('beneficiosPortada', 'option') ): ?>
 			<?php while( have_rows('beneficiosPortada', 'option') ): the_row(); ?>
 				<div class="PrimalBlocks-block">
