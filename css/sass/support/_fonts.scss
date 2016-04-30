@@ -47,3 +47,46 @@
   src: local('Open Sans Regular'), local('Open-Sans-Regular'),
   url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
+
+
+
+/*monserrat*/
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('fonts/monserrat/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('fonts/monserrat/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat ExtraBold';
+  src: url('fonts/monserrat/Montserrat-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat Hairline';
+  src: url('fonts/monserrat/Montserrat-Hairline.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('fonts/monserrat/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('fonts/monserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  src: url('fonts/monserrat/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat UltraLight';
+  src: url('fonts/monserrat/Montserrat-UltraLight.otf');
+}

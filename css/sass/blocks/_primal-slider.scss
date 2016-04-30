@@ -1,5 +1,10 @@
 .PrimalSlider {
 	/*height: 100vh;*/
+	background: #105200;
+
+	&.tiny {
+		padding-top: 200px;
+	}
 
 	.PrimalSlider-contenido {
 		border: none;

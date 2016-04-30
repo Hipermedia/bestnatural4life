@@ -3,7 +3,7 @@
 ------------------------------------------------------------------- */ 
 ?>
 
-<section class="PrimalSlider u-contenedorCompleto">
+<section class="PrimalSlider u-contenedorCompleto"  id="home-slider">
    <div id="slider-full" class="flexslider PrimalSlider-contenido">
       <ul class="slides">
          <?php while(have_rows('sliderHome', 'option')) : the_row(); ?>

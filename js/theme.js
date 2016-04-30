@@ -17,7 +17,9 @@ jQuery(document).ready(function($) {
 		$('#header-social').toggleClass('u-remove', $(document).scrollTop() > 0);
 		$('#header #searchform').toggleClass('u-remove', $(document).scrollTop() > 0);
     $('#header #header-frase').toggleClass('u-remove', $(document).scrollTop() > 0);
-		$('#header-main-nav').toggleClass('tiny', $(document).scrollTop() > 0);	
+    $('#header #header-before').toggleClass('u-remove', $(document).scrollTop() > 0);
+		$('#header-main-nav').toggleClass('tiny', $(document).scrollTop() > 0);
+    $('#home-slider').toggleClass('tiny', $(document).scrollTop() > 0); 	
 	});
 	
 	// Versión responsive del menú; oculta la navegación y en su defecto aparece un botón para mostrar u ocultarl la navegación

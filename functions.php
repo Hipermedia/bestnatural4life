@@ -100,6 +100,10 @@ function primalCover() {
 	get_template_part( 'inc/cover/primal-cover');
 }
 
+function nutrientesCover() {
+	get_template_part( 'inc/cover/nutrientes-cover');
+}
+
 /* Video
  * ------------------------------------------------------------- */
 /* PRIMAL; cover */

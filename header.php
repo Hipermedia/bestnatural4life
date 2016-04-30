@@ -56,7 +56,7 @@
 <body <?php body_class(); ?>>
 
 <header id="header" class="Header" role="banner" >
-   <div class="Header-beforeContenido">
+   <div class="Header-beforeContenido" id="header-before">
       <div class="u-contenedor">
          <div class="Header-beforeSearchShop">
            <?php get_search_form(); ?>

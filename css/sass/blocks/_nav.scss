@@ -6,15 +6,14 @@
 
 .primalMainNav {
 	display: block;
-	/*float: right;*/
 	margin: .5rem 1% 0;
 	max-width: 75%;
 	position: absolute;
 	right: 0;
-	/*top: 4rem;*/
 	bottom: 0;
+	font-family: $m-light;
 	@include transicion();
-	
+
 	@media (max-width: $tablet-width) {
 		width: 100%;
 		max-width: 100%;
@@ -112,7 +111,7 @@
 		line-height: 2em;
 		padding: 0px .8em;
 		text-decoration: none;
-		font-size: 1.15rem;
+		font-size: .94rem;
 		margin: 0 .25rem;
 		@include redondea(4px);
 		@include transicion(0.25s);
@@ -124,7 +123,8 @@
 	a:hover,
 	a:focus {
 		background: $nav-bg-text-color-hover; /* Show a solid color for older browsers */
-		color: $nav-text-color-hover;		
+		color: $nav-text-color-hover;	
+		font-size: .97rem;	
 	}
 	a.active {
 		font-weight: bold;
