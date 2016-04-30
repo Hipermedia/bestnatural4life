@@ -6,6 +6,7 @@
 
 	.PrimalCover-contenido {
 		padding: 2rem 0;
+		text-align: center;
 
 		.PrimalCover-imagen {
 			display: inline-block;
@@ -27,9 +28,12 @@
 
 		.PrimalCover-titulos {
 			display: inline-block;
-			width: 60%;
-			padding-top: 1rem;
+			width: 50%;
+			padding-top: 3.5rem;
+			padding-left: 3rem;
 			color: #1A1A1A;
+			text-align: left;
+			position: relative;
 
 			@media (max-width: $tablet-width) {
 				float: none;
@@ -39,23 +43,38 @@
 				text-align: center;
 			}
 			.PrimalCover-titulo {
-				font-size: 3rem;
-				font-weight: bold;
+				font-size: 2.6rem;
+				color: #476c22;
+				font-family: $m-bold;
+				margin-bottom: 2rem;
 			}
 
 			.PrimalCover-subtitulo {
-				font-size: 2rem;
-				font-weight: 400;
-			}
-			.PrimalCover-action{
-				font-weight: bold;
+				font-size: 1.5rem;
+				line-height: 1.2;
+
+				p {
+
+					strong {
+						font-family: $m-bold;
+						font-weight: normal;
+					}
+				}
 			}
 
+			.PrimalCover-zelda {
+				color: #476c22;
+				font-size: 1rem;
+				text-decoration: underline;
+				position: absolute;
+				right: 0;
+				bottom: -4rem;
+			}
 		}
-
 	}
 }
 
+/*Nutrientes*/
 .Nutrientes {
 	background: #70AD38;
 }
