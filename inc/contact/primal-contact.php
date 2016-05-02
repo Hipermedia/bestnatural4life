@@ -4,11 +4,15 @@
 ?>
 
 <!-- PrimalBloques -->
-<section class="PrimalContacto u-contenedor-completo" style="background-image: url('<?php the_field('imagenFondoPortada', 'option'); ?>')">
+<section class="PrimalContacto u-contenedor-completo">
 	<div class="PrimalContacto-contenido u-contenedor" >
+		<h2 class="u-block-title">- Contacto -</h2>
 		<div class="PrimalContacto-formulario" style="">
-			<h3>primalContact Lorem ipsum dolor sit amet.</h3>
-			<?php echo do_shortcode('[contact-form-7 id="73" title="Default CF"]'); ?>
+			<p><span>Correo: </span><?php the_field('movilContacto', 'option'); ?></p>
+			<p><span>Teléfono: </span><?php the_field('correoContacto', 'option'); ?></p>
 		</div>
+	</div>
+	<div class="PrimalContacto-contenidoMapa">
+		<?php the_field('mapaContacto', 'option'); ?>
 	</div>
 </section>

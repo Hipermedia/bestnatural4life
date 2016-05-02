@@ -1,0 +1,32 @@
+/*------------------------------------------------*/
+/*------------------[BLOCKS]----------------------*/
+/*------------------------------------------------*/
+.PrimalContacto {
+  /*padding-top: 6rem;*/
+  /*background: #F4FFEF;*/
+  padding-top: 2rem;
+  background: #303030;
+}
+
+.PrimalContacto .PrimalContacto-contenido {
+  text-align: center;
+}
+
+.PrimalContacto .PrimalContacto-contenido .PrimalContacto-formulario {
+  color: white;
+  padding: 3rem 0;
+}
+
+.PrimalContacto .PrimalContacto-contenido .PrimalContacto-formulario .nombre, .PrimalContacto .PrimalContacto-contenido .PrimalContacto-formulario .email {
+  display: inline-block;
+  width: 46%;
+  color: #3A362D;
+}
+
+.PrimalContacto .PrimalContacto-contenido .PrimalContacto-formulario .nombre {
+  float: left;
+}
+
+.PrimalContacto .PrimalContacto-contenido .PrimalContacto-formulario .email {
+  float: right;
+}

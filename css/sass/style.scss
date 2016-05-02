@@ -112,3 +112,37 @@ Text Domain: shbase
 /*@import "blocks/_primal-footer.scss";*/
 /* La personalización directa comienza aquí
 -------------------------------------------------------------- */
+
+.PrimalContacto {
+	background: #303030;
+
+	.u-block-title {
+		color: white;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.PrimalContacto-formulario {
+		text-align: center;
+
+		p {
+			padding: .5rem 1rem;
+			background: #242424;
+			color: white;
+			display: inline-block;
+			text-align: left;
+			margin: 0 .5% 2rem;
+
+			span {
+				color: #5E5E5E;
+			}
+		}
+	}
+
+	.PrimalContacto-contenidoMapa {
+
+		iframe {
+			width: 100% !important;
+		}
+	}
+}
