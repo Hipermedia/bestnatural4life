@@ -3,7 +3,8 @@
 /*------------------------------------------------*/
 
 .PrimalTestimony {
-	padding-top: 6rem;
+	padding-top: 3rem;
+	margin-bottom: 3rem;
 	
 	.PrimalTestimony-contenido {
 		// Responsive
@@ -11,18 +12,17 @@
 			padding: 1.5rem;
 		}
 		.PrimalTestimony-titulo {
-			color: $main-color-dark;
+			text-align: center;
+			color: #FF9A00;
+			margin-bottom: 3rem;
 		}
-		.PrimalTestimony-subtitulo {
-			margin: 0 0 3rem;
-		}
+
 		.PrimalTestimony-block {
 			display: block;
-			float: left;
-			width: 45%;
-			margin: 0 1.5% 3rem;	
-			padding: .75rem;
 			position: relative;
+			display: inline-block;
+			width: 49%;
+			vertical-align: top;
 			
 			// Responsive
 			@media (max-width: $tablet-width) {
@@ -30,30 +30,33 @@
 				margin: 0 0 3rem;
 			}
 			.PrimalTestimony-blockFigure {
-				position: absolute;
-				font-size: 2.5rem;
+				display: inline-block;
+				width: 29%;
+				vertical-align: top;
 			}
-			.PrimalTestimony-blockCita {
-				border: none;
-				margin: 0 0 1.5rem;
-				padding: 0;
-				font-family: Georgia;
-				font-style: italic;
-				font-size: 1.25rem;
-				line-height: 1.25;
-				padding-left: 3rem;
-			}
-			.PrimalTestimony-blockAuthor {
-				font-weight: bold;
-				padding-left: 1.5rem;
-				line-height: 1.15;
 
-				&:before {
-					content: '—';
+			.PrimalTestimony-blockComment {
+				display: inline-block;
+				width: 70%;
+
+				.PrimalTestimony-blockCita {
+					border: none;
+					font-family: $m-light;
+					font-size: 1.1rem;
+					margin: 0;
 				}
+
+				.PrimalTestimony-blockAuthor {
+					color: #939393;
+					font-family: $m-light;
+					font-size: 1.1rem;
+					padding: 10px 20px;
+					margin: 0;
+				}
+
 			}
+
 			.PrimalTestimony-blockMeta {
-				font-weight: normal;
 			}
 		}
 	}
