@@ -5,6 +5,7 @@
 <!-- columnistas-destacados -->
 <section class="FilmstripSlider u-contenedorCompleto">
 	<!-- <div class="wrapper"> -->
+	<h2 class="u-block-title"><?php the_field('tituloGaleriaPortada', 'option'); ?></h2>
 		<div id="slider-filmstrip" class="flexslider FilmstripSlider-contenido">
 		  	<ul class="slides">
 		  		<?php while(have_rows('imagenesGaleriaPortada', 'option')) : the_row(); ?>

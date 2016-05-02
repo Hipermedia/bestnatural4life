@@ -1,4 +1,11 @@
 .FilmstripSlider {
+	background: #ED8600;
+
+	.u-block-title {
+		text-align: center;
+		padding: .5rem 0;
+		color: white;
+	}
 	
 	.FilmstripSlider-contenido { 
 		border: none; 
@@ -38,6 +45,7 @@
 				width: 100%;
 				display: block;
 				text-align: center;
+				height: 490px;
 			}
 
 			.FilmstripSlider-slideTitulo {
