@@ -69,6 +69,10 @@
 				position: absolute;
 				right: 0;
 				bottom: -4rem;
+
+				@media (max-width: $tablet-width) {
+					position: relative;
+				}
 			}
 		}
 	}
@@ -99,6 +103,11 @@
 		text-align: left;
 		position: relative;
 
+		@media (max-width: $tablet-width) {
+			width: 96%;
+			text-align: center;
+		}
+
 		div {
 			margin-bottom: 1rem;
 
@@ -110,6 +119,11 @@
 				text-align: right;
 				padding-right: 1rem;
 				/*vertical-align: middle;*/
+				@media (max-width: $tablet-width) {
+					display: block;
+					margin: 0 auto;
+					margin-bottom: 1rem;
+				}
 			}
 
 			.Nutrientes-subtitulo {
@@ -126,6 +140,10 @@
 			font-size: 1.7rem;
 			color: white;
 			padding-left: 11%;
+
+			@media (max-width: $tablet-width) {
+				padding: 0;
+			}
 		}
 	}
 }

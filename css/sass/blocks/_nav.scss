@@ -97,7 +97,7 @@
 		float: left;
 		position: relative;
 
-		@media (max-width: 768px) {
+		@media (max-width: $tablet-width) {
 			width: 100%;
 			display: block;
 			text-align: center;

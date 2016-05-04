@@ -48,6 +48,10 @@ jQuery(document).ready(function($) {
   	  animation: "slide"
   	});
 
+    $('#slider-full-mul').flexslider({
+      animation: "slide"
+    });
+
   	// [Slider galería]
   	// --Imágenes principales
   	$('#slider-gallery-thumbnav').flexslider({

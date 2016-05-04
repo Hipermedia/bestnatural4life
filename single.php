@@ -14,6 +14,7 @@ get_header(); ?>
 			<?php if ( has_post_thumbnail() ) : ?>
 				<figure class="Post-featuredImage">
 					<?php the_post_thumbnail( 'large' ); ?>
+					<?php the_post_thumbnail( 'nota-secundaria' ); ?>
 				</figure>
 			<?php endif; ?>
 			<!-- Título del artículo -->

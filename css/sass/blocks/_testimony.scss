@@ -33,11 +33,24 @@
 				display: inline-block;
 				width: 29%;
 				vertical-align: top;
+
+				@media (max-width: $smaller-width) {
+					width: 50%;
+					display: block;
+					margin: 0 auto;
+				}
 			}
 
 			.PrimalTestimony-blockComment {
 				display: inline-block;
 				width: 70%;
+
+				@media (max-width: $tablet-width) {
+					width: 96%;
+					display: block;
+					margin: 0 auto;
+					text-align: center;
+				}
 
 				.PrimalTestimony-blockCita {
 					border: none;
