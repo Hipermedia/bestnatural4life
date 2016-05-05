@@ -1,12 +1,12 @@
 jQuery(document).ready(function($) {
 
   // pequeña función para desactivar los eventos en el mapa
-  $('.MeteoroContact-mapa').click(function () {
-      $('.MeteoroContact-mapa iframe').css("pointer-events", "auto");
+  $('.PrimalContacto-contenidoMapa').click(function () {
+      $('.PrimalContacto-contenidoMapa iframe').css("pointer-events", "auto");
   });
 
-  $('.MeteoroContact-mapa').mouseleave(function() { 
-    $('.MeteoroContact-mapa iframe').css("pointer-events", "none"); 
+  $('.PrimalContacto-contenidoMapa').mouseleave(function() { 
+    $('.PrimalContacto-contenidoMapa iframe').css("pointer-events", "none"); 
   }); //fin
 
 
@@ -20,6 +20,7 @@ jQuery(document).ready(function($) {
     $('#header #header-before').toggleClass('u-remove', $(document).scrollTop() > 0);
 		$('#header-main-nav').toggleClass('tiny', $(document).scrollTop() > 0);
     $('#home-slider').toggleClass('tiny', $(document).scrollTop() > 0); 	
+    $('#contenedor-principal').toggleClass('tiny', $(document).scrollTop() > 0); 
 	});
 	
 	// Versión responsive del menú; oculta la navegación y en su defecto aparece un botón para mostrar u ocultarl la navegación

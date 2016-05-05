@@ -21,20 +21,20 @@ get_header(); ?>
 
 	<?php
 	
-		$args = array(
-			'post_type' => 'product',
-			'posts_per_page' => 3
-			);
+		// $args = array(
+		// 	'post_type' => 'product',
+		// 	'posts_per_page' => 3
+		// 	);
 
-		$loop = new WP_Query( $args );
-		if ( $loop->have_posts() ) {
-			while ( $loop->have_posts() ) : $loop->the_post();
-				wc_get_template_part( 'content', 'product' );
-			endwhile;
-		} else {
-			echo __( 'No products found' );
-		}
-		wp_reset_postdata();
+		// $loop = new WP_Query( $args );
+		// if ( $loop->have_posts() ) {
+		// 	while ( $loop->have_posts() ) : $loop->the_post();
+		// 		wc_get_template_part( 'content', 'product' );
+		// 	endwhile;
+		// } else {
+		// 	echo __( 'No products found' );
+		// }
+		// wp_reset_postdata();
 	?>
 
 	<!-- Bloques -->
@@ -43,10 +43,8 @@ get_header(); ?>
 	<?php nutrientesCover(); ?>
 
 	<!-- Testimonios -->
-	<?php primalTestimony(); //  Bloques de contenido primordiales ?>
+	<?php //primalTestimony(); //  Bloques de contenido primordiales ?>
 	
 	<?php filmstripSlider(); ?>
-
-	<?php primalContact(); ?>
 
 <?php get_footer(); ?>

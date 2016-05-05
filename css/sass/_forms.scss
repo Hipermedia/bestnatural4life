@@ -36,13 +36,12 @@ input[type=number] {
 	padding: 3px;
 }
 input#s {
-	background: url(images/search.png) no-repeat 5px 6px;
+	background: url(images/lupe.png) no-repeat 5px 6px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	font-size: 0.875em; /* 14px */
 	height: 33px;
 	padding: 5px 10px 5px 28px;
-	margin-top: 0.3em;
 }
 input#searchsubmit {
 	display: none;

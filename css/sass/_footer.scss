@@ -7,7 +7,7 @@
 ----------------------------------------------- */
 
 .Footer {
-	padding-top: 2rem;	
+	/*padding-top: 2rem;	*/
 	background: $footer-bg;
 	
 
@@ -20,7 +20,7 @@
 			background-repeat: no-repeat;
 			background-size: 30px 60px;
 			padding-left: 30px;
-			width: 320px;
+			width: auto;
 			float: right;
 			color: #7A7A7A;
 			text-decoration: none;
@@ -35,7 +35,7 @@
 				margin-bottom: 2rem;
 			}
 					
-			&:hover {	color: #333;	background-position: 0 bottom;  }
+			&:hover {	color: white;	background-position: 0 bottom;  }
 		}
 	}
 	

@@ -82,4 +82,4 @@
    </section>
 </header>
 
-<main class="main">
+<main class="main" id="contenedor-principal">

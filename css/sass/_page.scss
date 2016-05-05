@@ -24,3 +24,42 @@
 
 	}
 }
+
+/*Plantilla de contacto*/
+
+.Contacto {
+
+	.Page-title {
+		background: #ED8600;
+		color: white;
+		text-align: center;
+		padding: .5rem 0;
+		margin: 0 0 3rem;
+	}
+
+	.Contacto-contenidoFormulario {
+		text-align: center;
+
+		.nombre,.email,.asunto {
+			width: 30%;
+			display: inline-block;
+
+			input {
+				background: #F3F3F3;
+			} 
+		}
+
+		.email {
+			margin: 0 4.5%;
+		}
+
+		.mensaje {
+			width: 99.333%;
+			display: inline-block;
+
+			textarea {
+				background: #F3F3F3;
+			}
+		}
+	}
+}

@@ -3,6 +3,9 @@
  ----------------------------------*/
 ?>
 
+	<?php primalContact(); ?>
+
+
 </main>
 
 <footer class="Footer">	
